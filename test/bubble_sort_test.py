@@ -1,6 +1,7 @@
 import bubble_sort
 import pytest
 
+
 @pytest.mark.parametrize(
     'input ,expected_output',
     [
