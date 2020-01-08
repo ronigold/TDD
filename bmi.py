@@ -1,6 +1,7 @@
 def bmi(weight, height):
     return round((weight/height**2),2)
 
+
 def bmi_categories(weight, height):
     if bmi(weight, height) < 15:
         return 'Very severely underweight'
